@@ -89,7 +89,7 @@ export default function Home() {
               
               <div className='flex items-center'>
                 <div className='w-10 h-10 bg-purple-600 rounded-md' />
-                <h2 className='hidden sm:visible ml-4 text-xl dark:text-[--font-color] font-semibold'>Bem Vindo, David Mendes</h2>
+                <h2 className='max-[780px]:hidden sm:visible ml-4 text-xl dark:text-[--font-color] font-semibold'>Bem Vindo, David Mendes</h2>
               </div>
 
               <div className='flex items-center'>
@@ -150,7 +150,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-6 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>JAN</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>JAN</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -158,7 +158,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-slate-200'>FEV</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>FEV</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -166,7 +166,7 @@ export default function Home() {
                           <div className='w-6 h-16 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-32 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>MAR</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>MAR</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -174,7 +174,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-12 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>ABR</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>ABR</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -182,7 +182,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-12 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>MAI</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>MAI</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5 justify-end'>
@@ -190,7 +190,7 @@ export default function Home() {
                           <div className='w-6 h-9 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-36 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>JUN</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>JUN</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -198,7 +198,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>JUL</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>JUL</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -206,7 +206,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>AGO</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>AGO</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -214,7 +214,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>SET</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>SET</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -222,7 +222,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>OUT</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>OUT</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -230,7 +230,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>NOV</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>NOV</small>
                       </li>
 
                       <li className='flex flex-col items-center mr-5'>
@@ -238,7 +238,7 @@ export default function Home() {
                           <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
-                        <small className='mt-[10px] text-xs text-[--font-color]'>DEZ</small>
+                        <small className='mt-[10px] text-xs text-[--background] dark:text-[--font-color]'>DEZ</small>
                       </li>
                     </ul>
                   </div>
