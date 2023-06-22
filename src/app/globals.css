@@ -38,24 +38,15 @@
 /* Estilizando o polegar da barra de rolagem */
 *::-webkit-scrollbar-thumb {
   background-color: #191f2e; /* Cor do polegar */
-  border-radius: 5px;
+ 
 }
 
 /* Estilizando o polegar da barra de rolagem quando houver hover */
 *::-webkit-scrollbar-thumb:hover {
-  background-color: #08091d; /* Cor do polegar ao passar o mouse */
+  /* background-color: #08091d; */ /* Cor do polegar ao passar o mouse */
 }
 
 body {
   height: 100vh;
   overflow: hidden;
-}
-
-@keyframes counting {
-  0% {
-      content: "R$ 200,00";
-  }
-  100% {
-      content: "R$ 999,99";
-  }
 }

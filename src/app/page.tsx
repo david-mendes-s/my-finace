@@ -136,14 +136,14 @@ export default function Home() {
                   </div>
               </div>
 
-              <div className='max-[639px]:w-full w-1/2 flex flex-col pr-3 py-4'>
+              <div className='max-[980px]:w-full w-1/2 flex flex-col pr-3 py-4'>
                   <div className='flex items-center justify-between '>
                     <h3 className='text-lg dark:text-slate-200 font-bold tracking-tighter  mt-1'>Análise Mensal</h3>
                     {/* <button>
                       <SlReload size={22} className='dark:text-slate-200'/>
                     </button> */}
                   </div>
-                  <div className='max-[639px]:overflow-hidden   w-full h-[180px]'>
+                  <div className='overflow-y-hidden overflow-x-scroll w-full h-[180px]'>
                     <ul className='flex items-end'>
                       <li className='flex flex-col items-center mr-5 '>
                         <div className='flex items-end'>
@@ -207,6 +207,38 @@ export default function Home() {
                           <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
                         </div>
                         <small className='mt-[10px] text-xs text-[--font-color]'>AGO</small>
+                      </li>
+
+                      <li className='flex flex-col items-center mr-5'>
+                        <div className='flex items-end'>
+                          <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
+                          <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
+                        </div>
+                        <small className='mt-[10px] text-xs text-[--font-color]'>SET</small>
+                      </li>
+
+                      <li className='flex flex-col items-center mr-5'>
+                        <div className='flex items-end'>
+                          <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
+                          <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
+                        </div>
+                        <small className='mt-[10px] text-xs text-[--font-color]'>OUT</small>
+                      </li>
+
+                      <li className='flex flex-col items-center mr-5'>
+                        <div className='flex items-end'>
+                          <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
+                          <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
+                        </div>
+                        <small className='mt-[10px] text-xs text-[--font-color]'>NOV</small>
+                      </li>
+
+                      <li className='flex flex-col items-center mr-5'>
+                        <div className='flex items-end'>
+                          <div className='w-6 h-28 bg-green-500 dark:bg-purple-600 rounded-t-[5px] mr-[2px]'></div>
+                          <div className='w-6 h-24 bg-slate-200 rounded-t-[5px]'></div>
+                        </div>
+                        <small className='mt-[10px] text-xs text-[--font-color]'>DEZ</small>
                       </li>
                     </ul>
                   </div>
