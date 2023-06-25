@@ -336,15 +336,20 @@ export default function Home() {
                           </div>
                         </td>
                         <td className='text-right'>
-                          <p className={`${inter.className} font-extrabold text-[--font-color-failed] text-base`}>- R$ 100
-                          <small className='text-[8px]'>,00</small> </p>
+                          <div className='flex items-center justify-end '>
+                            <div className='flex flex-col items-end justify-end'>
+                              <p className={`${inter.className} font-extrabold text-[--font-color-failed] text-base`}>- R$ 20
+                              <small className='text-[8px]'>,00</small></p>
+                              <small className='dark:text-[#A29EBC] text-right'>Saída</small>
+                            </div>
+                          </div>
                         </td>
                         
                       </tr>
 
                       <tr >
                         <td>
-                          <div className='flex items-center justify-start py-2'>
+                          <div className='flex items-center justify-start'>
                             <div className='bg-purple-600 h-min p-3 rounded-lg mr-2'>
                               <BsCarFront size={20} className='text-[--font-color] '/>
                             </div>
@@ -355,8 +360,13 @@ export default function Home() {
                           </div>
                         </td>
                         <td className='text-right'>
-                          <p className={`${inter.className} font-extrabold text-[--font-color-failed] text-base`}>- R$ 20
-                          <small className='text-[8px]'>,00</small></p>
+                          <div className='flex items-center justify-end'>
+                            <div className='flex flex-col items-end justify-end'>
+                              <p className={`${inter.className} font-extrabold text-[--font-color-failed] text-base`}>- R$ 20
+                              <small className='text-[8px]'>,00</small></p>
+                              <small className='dark:text-[#A29EBC] text-right'>Saída</small>
+                            </div>
+                          </div>
                         </td>
                         
                       </tr>
@@ -374,8 +384,13 @@ export default function Home() {
                           </div>
                         </td>
                         <td className='text-right'>
-                          <p className={`${inter.className} font-extrabold text-[--font-color-sucess] text-base`}>+ R$ 2500
-                          <small className='text-[8px]'>,00</small></p>
+                          <div className='flex items-center justify-end py-2'>
+                            <div className='flex flex-col items-end justify-end'>
+                              <p className={`${inter.className} font-extrabold text-[--font-color-sucess] text-base`}>+ R$ 20
+                              <small className='text-[8px]'>,00</small></p>
+                              <small className='dark:text-[#A29EBC] text-right'>Entrada</small>
+                            </div>
+                          </div>
                         </td>
                         
                       </tr>
