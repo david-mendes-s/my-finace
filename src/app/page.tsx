@@ -111,9 +111,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='max-[980px]:flex-col flex items-start justify-start w-full gap-4 my-8'>
+            <div className='max-[1200px]:flex-col flex items-start justify-start w-full gap-4 my-8'>
               
-              <div className='w-1/2 py-4 max-[980px]:w-full'>
+              <div className='w-1/2 py-4 max-[1200px]:w-full'>
                   {/*balanço total */} 
                   <div className='flex justify-between bg-slate-200 dark:bg-[--box-background] w-full h-52 rounded-2xl'>
                     <div className='flex flex-col items-start justify-center p-7 max-[639px]:p-4'>
@@ -136,7 +136,7 @@ export default function Home() {
                   </div>
               </div>
 
-              <div className='max-[980px]:w-full w-1/2 flex flex-col pr-3 py-4'>
+              <div className='max-[1200px]:w-full w-1/2 flex flex-col pr-3 py-4'>
                   <div className='flex items-center justify-between '>
                     <h3 className='text-lg dark:text-slate-200 font-bold tracking-tighter  mt-1'>Análise Mensal</h3>
                     {/* <button>
@@ -246,8 +246,8 @@ export default function Home() {
 
             </div>
             {/* Contas Bancarias */}       
-            <div className='max-[1200px]:flex-wrap max-[639px]:flex-row max-[639px]:flex-wrap mb-8 flex gap-4'>
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] w-1/6 bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
+            <div className='grid grid-cols-6 grid-rows-1 max-[1200px]:grid-cols-3 max-[1200px]:grid-rows-2 max-[600px]:grid-rows-3 max-[600px]:grid-cols-2  gap-4 mb-8'>
+              <div className=' bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
                 <small className='text-sm text-[--background] dark:text-[--font-color]'>Nubank</small>
                 <h3 className={`${inter.className} 
                   font-extrabold text-[--background] dark:text-[--font-color] text-2xl`}>R$ 150
@@ -259,7 +259,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] w-1/6 bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
+              <div className='  bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
                 <small className='text-sm text-[--background] dark:text-[--font-color]'>Bb</small>
                 <h3 className={`${inter.className} 
                   font-extrabold text-[--background] dark:text-[--font-color] text-2xl`}>R$ 150
@@ -271,7 +271,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] w-1/6 bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
+              <div className='  bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
                 <small className='text-sm text-[--background] dark:text-[--font-color]'>Bradesco</small>
                 <h3 className={`${inter.className} 
                   font-extrabold text-[--background] dark:text-[--font-color] text-2xl`}>R$ 150
@@ -283,7 +283,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] w-1/6 bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
+              <div className='  bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
                 <small className='text-sm text-[--background] dark:text-[--font-color]'>Minha Poupança</small>
                 <h3 className={`${inter.className} 
                   font-extrabold text-[--background] dark:text-[--font-color] text-2xl`}>R$ 150
@@ -295,7 +295,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] w-1/6 bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
+              <div className='  bg-slate-200 dark:bg-[--box-background] p-[27px] rounded-lg'>
                 <small className='text-sm text-[--background] dark:text-[--font-color]'>Caixa</small>
                 <h3 className={`${inter.className} 
                   font-extrabold text-[--background] dark:text-[--font-color] text-2xl`}>R$ 150
@@ -307,7 +307,7 @@ export default function Home() {
                 </button>
               </div>
 
-              <div className='max-[1150px]:w-[31%] max-[639px]:w-[47%] flex items-center justify-center w-1/6  p-[27px] border border-dashed border-[--box-background] dark:border-[--font-color] rounded-lg'>
+              <div className=' flex items-center justify-center   p-[27px] border border-dashed border-[--box-background] dark:border-[--font-color] rounded-lg'>
                 <button>
                   <BsPlusSquare size={28} className='fill-[--box-background] dark:fill-[--font-color]'/>
                 </button>
